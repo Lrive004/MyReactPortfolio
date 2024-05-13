@@ -7,14 +7,8 @@ import App from './App.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx'
 import Error from './pages/Error.jsx';
-import Home from './pages/Home.jsx';
-import Resume from './pages/Resume.jsx';
+// import Resume from './pages/Resume.jsx';
 import Portfolio from './pages/Portfolio.jsx';
-
-import './index.css'
-
-
-
 
 const router = createBrowserRouter([
   {
@@ -24,11 +18,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: '/About',
-        element: <About/>,
+        element: <About />,
       },
       {
         path: '/Contact',
@@ -38,10 +28,10 @@ const router = createBrowserRouter([
         path: '/Error',
         element: <Error/>,
       },
-      {
-        path: '/Resume',
-        element: <Resume/>,
-      },
+      // {
+      //   path: '/Resume',
+      //   element: <Resume/>,
+      // },
       {
         path: '/Portfolio',
         element: <Portfolio/>,
@@ -49,10 +39,6 @@ const router = createBrowserRouter([
     ]
   }
 ])
-
-
-
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router ={router} />
