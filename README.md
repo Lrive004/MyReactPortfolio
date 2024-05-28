@@ -1,6 +1,7 @@
 # Luis' React Portfolio
   ## A personal portfolio showcasing projects that I've worked on, along with an about me, a way to contact me, and a resume. The application uses React as a framework.
-  *Application needs PLENTY of work, currently revisiting React to cement more skills/knowledge to create a beautiful completely functional React Portfolio
+  *Application needs PLENTY of work, currently revisiting React lessons/docs to cement more skills/knowledge to create a beautiful completely functional React Portfolio
+  https://main--luisreactportfolio.netlify.app/ 
   
   ## Table of Contents
   - [Installation](#installation)
